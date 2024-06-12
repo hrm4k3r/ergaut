@@ -3,21 +3,369 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ergaut</title>
+    <title>
+      Ergaut | Uma indtech fascinada em resolver problemas da indústria
+    </title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/back-to-top.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
-    <main>
-      <div class="navbar">
-        <ul>
-          <li>Home</li>
-          <li>Quem Somos</li>
-          <li>Nossas Soluções</li>
-          <li>Mercados Atendidos</li>
-          <li>Seja um Representante</li>
-          <li>Contato</li>
-        </ul>
+    <div class="topnav" id="myTopnav">
+      <a href="#myTopnav">Home</a>
+      <a href="#about">Quem Somos</a>
+      <a href="#solutions">Nossas Soluções</a>
+      <a href="#market">Mercados Atendidos</a>
+      <a href="#agent">Seja um Representante</a>
+      <a href="#contact">Contato</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div
+      class="relative w-full"
+      style="padding-bottom: 56.25%; height: 0; overflow: hidden"
+    >
+      <img
+        class="absolute top-0 left-0 w-full h-full object-cover"
+        src="video/video.gif"
+        alt="Ergaut Brasil"
+      />
+
+      <div
+        class="absolute top-0 left-0 w-full h-full bg-[#303596] bg-opacity-50 flex items-center justify-end"
+      >
+        <div class="absolute top-0 left-0 m-4">
+          <img
+            src="images/logo-white.png"
+            alt="Ergaut Brasil"
+            class="md:w-48 w-16"
+          />
+        </div>
+
+        <div class="w-1/2 h-full bg-[#323893] bg-opacity-70"></div>
+
+        <div
+          class="absolute top-0 right-0 w-1/2 h-full flex items-center justify-end p-4"
+        >
+          <div class="text-white text-right">
+            <h1 class="md:text-5xl text-xl md:text-6xl p-6">
+              Uma <span class="italic">indtech fascinada</span> em
+              <span class="font-bold">resolver problemas</span> por meio da
+              <span class="font-bold">inovação</span>.
+            </h1>
+          </div>
+        </div>
       </div>
-    </main>
+    </div>
+
+    <div
+      id="about"
+      class="flex md:flex-row flex-col md:p-16 p-6 align-center text-[#323893]"
+    >
+      <div class="about-left flex-1 md:pl-14 md:pr-16">
+        <h2 class="text-3xl pb-6 text-center">QUEM SOMOS</h2>
+        <h3 class="text-2xl pb-2 font-semibold">
+          Uma startup formada por inventores
+        </h3>
+        <p class="pb-8 text-xl">
+          A Ergaut Brasil é uma startup sul mineira do tipo ​indtech, focada em
+          desenvolver soluções de base ​tecnológica para a indústria e
+          construção civil.
+        </p>
+
+        <h3 class="text-2xl pb-2 font-semibold">
+          Ferramentas que otimizam a produtividade
+        </h3>
+        <p class="pb-8 text-xl">
+          Entre os variados projetos de PD&I que ​desenvolvemos in house, nosso
+          carro-chefe é o​ inventivo içador de manilha LIFTON GHX®.​
+        </p>
+
+        <h3 class="text-2xl pb-2 font-semibold">Mecânica, automação e dados</h3>
+        <p class="text-xl">
+          Buscamos consolidar nossa marca como uma ​fornecedora de tecnologia
+          dotada de ​funcionalidades mecânicas de pont​a, para máquinas e
+          equipamentos. Também vis​amos agregar automação e mapeamento ​de dados
+          nas tarefas executadas com nosso​s produtos, seja no​ parque fabril ou
+          no canteiro de obras.
+        </p>
+      </div>
+
+      <div class="about-right flex-1 mt-6">
+        <img src="images/section2.jpg" alt="Quem Somos" />
+      </div>
+    </div>
+
+    <div
+      id="solutions"
+      class="flex md:flex-row flex-col p-6 bg-[#323893] text-white p-16 align-center pb-0 pt-0"
+    >
+      <div class="solutions-left flex-1 md:pl-24 md:pr-16">
+        <h2 class="text-3xl pb-14 pt-14 text-center">NOSSAS SOLUÇÕES</h2>
+        <h3 class="text-[1.5em] font-semibold pb-6">
+          Içadores de manilha que otimizam ​obras de saneamento
+        </h3>
+        <p class="text-xl pb-6">
+          Nossos içadores da manilha da marca LIFTON-GHX® ​proporcionam maior
+          segurança e eficiência em ​tarefas de carregamento e descarregamento
+          de ​manilhas de concreto, bem como na instalação em ​fossas sépticas,
+          pois dispensam a necessidade de ​uma pessoa para entrar no poço e
+          desconectar o ​dispositivo da manilha.
+        </p>
+
+        <div class="flex md:flex-row flex-col">
+          <div class="solutions-left-logo flex-1 pr-16">
+            <h3 class="text-xl font-bold pb-10">
+              Pode ser usado para ​içamento de bobinas ​e outros objetos em
+              ​formato anelar.
+            </h3>
+            <a
+              href="https://wa.me/5535991895377"
+              target="_blank"
+              class="bg-white p-4 text-[#323893] md:text-sm text-xs hover:bg-[#323893] hover:text-white hover:border hover:border-white hover:transition hover:duration-300 hover:ease-in-out"
+              >Entre em contato e saiba mais</a
+            >
+          </div>
+          <div class="solutions-right-logo flex-1 md:mt-0 mt-10">
+            <img src="images/lifton-logo.png" alt="Lifton" />
+          </div>
+        </div>
+      </div>
+      <div class="solutions-right flex-1 pt-0 mt-10 md:mt-0">
+        <img src="images/section3.jpg" alt="Nossas Soluções" />
+      </div>
+    </div>
+
+    <div id="market" class="md:p-16 p-6 text-center">
+      <div class="market-title flex justify-center">
+        <h2
+          class="text-3xl border border-black p-6 uppercase md:w-2/4 w-full text-center mb-16"
+        >
+          Mercados Atendidos
+        </h2>
+      </div>
+
+      <div class="flex justify-center flex-col items-center">
+        <div
+          class="market-icons-1 flex md:flex-row flex-col justify-center md:space-x-4 mb-4"
+        >
+          <div class="text-center mb-10">
+            <img
+              src="images/icon-saneamento.jpg"
+              alt="Saneamento"
+              class="m-2 pl-14 pr-14"
+            />
+            <p class="font-bold text-xl">Saneamento</p>
+          </div>
+
+          <div class="text-center mb-10">
+            <img
+              src="images/icon-construcao.jpg"
+              alt="Construção Civil"
+              class="m-2 pl-14 pr-14"
+            />
+            <p class="font-bold text-xl">Construção Civil</p>
+          </div>
+
+          <div class="text-center">
+            <img
+              src="images/icon-guindastes.jpg"
+              alt="Locadoras de Guindastes e Muncks"
+              class="m-2 pl-14 pr-14"
+            />
+            <p class="font-bold text-xl">
+              Locadoras de <br />Guindastes e Muncks
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="market-icons-1 flex md:flex-row flex-col justify-center md:space-x-4 pt-10"
+        >
+          <div class="text-center mb-10">
+            <img
+              src="images/icon-siderurgia.jpg"
+              alt="Siderurgia"
+              class="m-2 pl-14 pr-14"
+            />
+            <p class="font-bold text-xl">Siderurgia</p>
+          </div>
+
+          <div class="text-center mb-10">
+            <img
+              src="images/icon-mineracao.jpg"
+              alt="Mineração"
+              class="m-2 pl-14 pr-14"
+            />
+            <p class="font-bold text-xl">Mineração</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="agent"
+      class="flex md:flex-row flex-col bg-[#7a81f2] text-white pl-6 pt-6 pb-6 md:pb-16 md:pt-16"
+    >
+      <div class="agent-left md:flex-[3/4] md:ml-36 md:mr-24">
+        <h2
+          class="md:text-3xl text-2xl p-8 mr-6 border border-white uppercase mt-6 mb-10 md:w-3/4 text-center"
+        >
+          Seja um Representante
+        </h2>
+
+        <div class="flex mb-6 mr-6">
+          <div class="agent-icon pr-6">
+            <i class="fa fa-location-arrow fa-2x"></i>
+          </div>
+          <div class="agent-text">
+            <h3 class="text-xl font-bold">
+              Comercialize os produtos exclusivos da Ergaut Brasil
+            </h3>
+            <p class="mb-8">
+              Nossos produtos são lastreados por patentes requeridas perante o
+              INPI, o ​que em breve irá assegurar a exclusividade na
+              comercialização da nossa ​tecnologia, com todas as suas vantagens.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex mb-6 mr-6">
+          <div class="agent-icon pr-6">
+            <i class="fa fa-location-arrow fa-2x"></i>
+          </div>
+          <div class="agent-text">
+            <h3 class="text-xl font-bold">
+              Seja parceiro de uma empresa que respira inovação
+            </h3>
+            <p class="mb-8">
+              Nossa empresa busca continuamente desenvolver soluções inventivas
+              de ​impacto, capazes de transformar a realidade da indústria para
+              a qual se ​destinam​.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex mb-6 mr-6">
+          <div class="agent-icon pr-6">
+            <i class="fa fa-location-arrow fa-2x"></i>
+          </div>
+          <div class="agent-text">
+            <h3 class="text-xl font-bold">
+              Receba comissões por leads convertidos
+            </h3>
+            <p class="mb-8">
+              Nossa empresa acredita fielmente no ‘ganha-ganha’. Por esse
+              ​motivo, nosso programa de comissionamento é progressivo,
+              ​vinc​ulado ao desempenho da sua representação.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="agent-right flex-[1/4] flex flex-col justify-end items-end">
+        <div class="w-full flex justify-end">
+          <img
+            src="images/section5.png"
+            alt="Seja um Representante"
+            class="w-auto"
+          />
+        </div>
+        <div class="mt-4 pr-8 mr-6">
+          <h2 class="text-2xl font-bold text-right">
+            Entre em contato e veja quais regiões são nossa prioridade para 2024
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="contact"
+      class="flex p-6 bg-[#323893] text-white md:p-16 p-6 align-center"
+    >
+      <div class="contact-left flex-3/4 md:pt-36 md:pl-24 md:pr-14">
+        <h2 class="text-3xl uppercase mb-6">Contato</h2>
+        <h3 class="text-[#7a81f2] text-xl font-bold mb-24">
+          ERGAUT BRASIL INDÚSTRIA E COMÉRCIO INOVA SIMPLES (I.S.) <br />
+          POUSO ALEGRE - MG <br />
+          CNPJ: 52.523.448/0001-93
+        </h3>
+        <a
+          href="https://wa.me/5535991895377"
+          target="_blank"
+          class="md:text-xl text-sm border border-white p-8 md:pl-24 md:pr-24 hover:bg-white hover:text-[#323893] hover:transition hover:duration-300 hover:ease-in-out"
+          >FALE CONOSCO</a
+        >
+      </div>
+      <div class="contact-right text-1/4">
+        <img src="images/img-footer.jpg" alt="Entre em Contato" />
+      </div>
+    </div>
+
+    <div
+      class="flex md:flex-row flex-col p-6 bg-[#323893] text-white justify-center pt-12 md:pl-28"
+    >
+      <div
+        class="flex-1 flex md:flex-row flex-col justify-center md:items-center md:space-x-8"
+      >
+        <div class="md:w-1/4 mb-6">
+          <h3 class="text-xl font-bold mb-2">Telefone</h3>
+          <p>(35) 9 9189-5377</p>
+        </div>
+        <div class="md:w-1/4 mb-6">
+          <h3 class="text-xl font-bold mb-2">E-mail</h3>
+          <p>ergaut.brasil@gmail.com</p>
+        </div>
+        <div class="md:w-1/4 mb-6">
+          <h3 class="text-xl font-bold mb-2">Redes Sociais</h3>
+          <a
+            href="https://www.facebook.com/ergautbrasil"
+            target="_blank"
+            class="mr-4"
+            ><i class="fa fa-facebook fa-2x"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/ergautbrasil"
+            target="_blank"
+            class="mr-4"
+            ><i class="fa fa-instagram fa-2x"></i
+          ></a>
+          <a
+            href="http://www.linkedin.com/company/ergaut-brasil"
+            target="_blank"
+            ><i class="fa fa-linkedin fa-2x"></i
+          ></a>
+        </div>
+        <div class="md:w-1/4 mb-6 md:mt-0 mt-10 flex justify-between">
+          <div class="flex-1 flex justify-center items-center">
+            <img
+              src="images/lifton-logo.png"
+              alt="Lifton"
+              class="w-16 max-w-full h-auto"
+            />
+          </div>
+          <div class="flex-1 flex justify-center items-center">
+            <img
+              src="images/logo-white.png"
+              alt="Ergaut Brasil"
+              class="w-32 max-w-full h-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy text-center text-sm text-white bg-[#323893] p-4">
+      <p>Todos os Direitos Reservados à Ergaut Brasil</p>
+    </div>
+
+    <button id="back-to-top" class="back-to-top">↑ Topo</button>
   </body>
 </html>

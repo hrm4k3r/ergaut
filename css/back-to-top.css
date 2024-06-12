@@ -1,0 +1,32 @@
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #323893;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1000;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top.show {
+  display: block;
+}
+
+.back-to-top:hover {
+  background-color: #282c7b;
+}
+
+@media (max-width: 600px) {
+  .back-to-top {
+    bottom: 15px;
+    right: 15px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
